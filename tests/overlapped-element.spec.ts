@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Overlapped Element Scenario', () => {
   test('should fill the input fields despite being overlapped', async ({ page }) => {
-    await page.goto('http://uitestingplayground.com/overlapped');
+    await page.goto('/overlapped');
 
     const inputId = page.locator('#id');
     await inputId.fill('Loremipsum');

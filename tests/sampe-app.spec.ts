@@ -7,7 +7,7 @@ test.describe('Sample App Login Tests', () => {
   let statusMessage: Locator;
 
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://uitestingplayground.com/sampleapp');
+    await page.goto('/sampleapp');
 
     usernameField = page.locator('input[name="UserName"]');
     passwordField = page.locator('input[name="Password"]');
