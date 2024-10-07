@@ -26,6 +26,17 @@ node app.js
 http://localhost:3000
 ```
 
+5. Execute tests
+ ```
+To run all tests:
+npx playwright test
+---
+To run a single file:
+npx playwright test tests/<filename>.spec.ts
+
+```
+   
+
 ## Software Stack
 - [Node.js](https://github.com/nodejs/node)
 - [Express](https://github.com/expressjs/express/)
