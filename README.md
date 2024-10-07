@@ -43,4 +43,5 @@ npx playwright test tests/<filename>.spec.ts
 - [Pug](https://github.com/pugjs/pug)
 - [Bootstrap](https://github.com/twbs/bootstrap)
 - [jQuery](https://github.com/jquery/jquery)
+- [Playwright](https://playwright.dev/docs/intro)
 
